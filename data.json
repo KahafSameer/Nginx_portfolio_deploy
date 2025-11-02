@@ -1,0 +1,62 @@
+{
+  "name": "Kahaf Sameer",
+  "email": "Sameerkahaf920@gmail.com",
+  "phone": "(+92) 3008402564",
+  "bio": "Motivated DevOps enthusiast with hands-on experience in Linux, Git, GitHub, and Python. Passionate about automating workflows, managing version control, and learning containerization using Docker. Seeking an entry-level DevOps role to contribute to CI/CD pipeline design, cloud deployment, and infrastructure automation, while leveraging a strong foundation in software engineering and scripting.",
+  "skills": [
+    "DevOps & Tools: Linux (Ubuntu, CLI, Bash scripting), Git, GitHub, GitLab, Docker (learning), CI/CD concepts (basic)",
+    "Programming & Scripting: Python (automation scripts, data handling), Shell (basic)",
+    "Version Control & Collaboration: Git branching, GitLab repositories, Merge Requests, GitHub Actions (intro level)",
+    "Cloud & Deployment (Basic Familiarity): AWS fundamentals, Docker workflow, Streamlit app deployment",
+    "Other Technical Areas: Flutter, Firebase, HTML, CSS, JavaScript, SQL, MySQL, SQLite"
+  ],
+  "education": [
+    {
+      "degree": "BS Computer Science",
+      "institution": "University of Sahiwal",
+      "years": "2021 – 2025",
+      "cgpa": "3.7"
+    },
+    {
+      "degree": "Intermediate (ICS)",
+      "institution": "Post Graduate College CCW",
+      "years": "2019 – 2021"
+    },
+    {
+      "degree": "Matriculation",
+      "institution": "Govt. High School CCW",
+      "years": "2017 – 2019"
+    }
+  ],
+  "projects": [
+    {
+      "title": "CI/CD Pipeline for Python Application (Basic DevOps Project)",
+      "description": "Built a basic CI/CD workflow using GitHub Actions to automate testing and containerize a Python app with Docker.",
+      "tech": "Linux, GitHub Actions, Docker",
+      "year": "2025"
+    },
+    {
+      "title": "Needle Network Tailors Service App",
+      "description": "Built a tailor–customer marketplace app with AI-powered chatbot using RAG and Gemini API. Integrated Google Maps for finding nearby tailors and enabled real-time product listing & chat features.",
+      "tech": "Flutter, Firebase, Gemini API",
+      "year": "2025"
+    },
+    {
+      "title": "Healthcare Insurance Fraud Detection",
+      "description": "Developed a fraud detection system using Gradient Boosting Classifier trained on Medicare data. Deployed via Streamlit with SHAP-based model interpretability.",
+      "tech": "Python, AI, Streamlit",
+      "year": "2025"
+    }
+  ],
+  "achievements": [
+    "AI/ML Skills (2024 – 2025): Practical experience in Python, Pandas, NumPy, Streamlit, and Linux basics.",
+    "Trainings (2021 – 2023): Completed training in Flutter, Firebase, DBMS, Game Development, Android Studio.",
+    "Merit Scholarship (2021 – 2025): Awarded for securing 1st position in BSCS evening sessions.",
+    "Member (2021 – Present): University Programming & Development Society."
+  ],
+  "technicalActivities": [
+    "Linux Administration: Practiced CLI operations, permissions, and process management.",
+    "Version Control Workshops: Worked on Git branching, merging, and repository management.",
+    "CI/CD Learning Path: Exploring Jenkins and GitHub Actions for automated testing and deployment."
+  ]
+}

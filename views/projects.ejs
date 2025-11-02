@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title><%= data.name %> - Projects</title>
+  <link rel="stylesheet" href="/styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <nav>
+      <div class="nav-container">
+        <h1><%= data.name %></h1>
+        <ul>
+          <li><a href="/">Home</a></li>
+          <li><a href="/projects">Projects</a></li>
+          <li><a href="/education">Education</a></li>
+          <li><a href="/contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+  <main>
+    <section id="projects">
+      <div class="container">
+        <h2>My Projects</h2>
+        <div class="projects-grid">
+          <% data.projects.forEach(project => { %>
+            <div class="project-card">
+              <h3><%= project.title %></h3>
+              <p><%= project.description %></p>
+              <div class="project-meta">
+                <span class="tech-stack"><strong>Tech Stack:</strong> <%= project.tech %></span>
+                <span class="year"><strong>Year:</strong> <%= project.year %></span>
+              </div>
+            </div>
+          <% }); %>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer>
+    <div class="container">
+      <p>&copy; 2023 <%= data.name %>. All rights reserved.</p>
+    </div>
+  </footer>
+</body>
+</html>

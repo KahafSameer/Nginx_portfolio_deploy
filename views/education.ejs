@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title><%= data.name %> - Education</title>
+  <link rel="stylesheet" href="/styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <nav>
+      <div class="nav-container">
+        <h1><%= data.name %></h1>
+        <ul>
+          <li><a href="/">Home</a></li>
+          <li><a href="/projects">Projects</a></li>
+          <li><a href="/education">Education</a></li>
+          <li><a href="/contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+  <main>
+    <section id="education">
+      <div class="container">
+        <h2>Education</h2>
+        <div class="education-timeline">
+          <% data.education.forEach(edu => { %>
+            <div class="education-item">
+              <h3><%= edu.degree %></h3>
+              <p class="institution"><%= edu.institution %></p>
+              <p class="years"><%= edu.years %></p>
+              <% if (edu.cgpa) { %>
+                <p class="cgpa">CGPA: <%= edu.cgpa %></p>
+              <% } %>
+            </div>
+          <% }); %>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer>
+    <div class="container">
+      <p>&copy; 2023 <%= data.name %>. All rights reserved.</p>
+    </div>
+  </footer>
+</body>
+</html>
